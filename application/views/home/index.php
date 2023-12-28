@@ -10,11 +10,15 @@
           </p>
 
           <p class="lead">
-            <span class="text-danger">PENTING:</span> Pastikan untuk mengimpor terlebih dahulu file database sebelum melanjutkan.
+            <strong><span class="text-danger">PENTING:</span></strong> Nama folder default adalah <strong>test_ci</strong>, yang memengaruhi <strong>base_url</strong> menjadi <strong><?= base_url() ?></strong>
+          </p>
+          
+          <p class="lead">
+            <strong><span class="text-danger">PENTING:</span></strong> Pastikan untuk <strong>mengimpor terlebih dahulu file database</strong> sebelum melanjutkan.
           </p>
 
           <p class="lead">
-            Untuk <span class="text-warning">database penduduk,</span> beberapa fitur mungkin belum lengkap karena proyek ini juga saya gabung dengan tugas Struktur Data.
+            Untuk <strong><span class="text-warning">database penduduk,</span></strong> beberapa fitur mungkin belum lengkap karena proyek ini juga saya gabung dengan tugas Struktur Data.
           </p>
 
         </div>
