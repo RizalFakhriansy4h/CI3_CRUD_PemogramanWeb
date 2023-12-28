@@ -1,1 +1,1 @@
-folder harus bernnama test_ci
+folder harus bernama test_ci
