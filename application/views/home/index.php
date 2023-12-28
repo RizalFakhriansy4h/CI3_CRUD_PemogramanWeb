@@ -6,7 +6,7 @@
         <div class="container">
           <h1 class="display-4">Hello <?= $nama; ?></h1>
           <p class="lead">
-            Untuk mengakses Halaman CRUD, silakan kunjungi bagian database/Hobi di navbar atau klik <a href="<?= base_url()?>hobi">di sini</a>.
+            Untuk mengakses Halaman CRUD, silakan kunjungi bagian <strong>database/Hobi di navbar</strong> atau klik <a href="<?= base_url()?>hobi">di sini</a>.
           </p>
 
           <p class="lead">
