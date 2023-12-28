@@ -24,7 +24,6 @@
                     <th scope="col">ID</th>
                     <th scope="col">Nama</th>
                     <th scope="col">Email</th>
-                    <th scope="col">Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -43,11 +42,6 @@
                             <th scope="row"><?= $pend["id"] ?></th>
                             <td><?= $pend["nama"] ?></td>
                             <td><?= $pend["email"] ?></td>
-                            <td>
-                                <a href=""><span class="badge bg-primary">Detail</span></a>
-                                <a href=""><span class="badge bg-success">Edit</span></a>
-                                <a href=""><span class="badge bg-danger">Hapus</span></a>
-                            </td>
                         </tr>
                     <?php endforeach; ?>
                 </tbody>
